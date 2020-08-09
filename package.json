@@ -1,25 +1,20 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
+  "name": "vblog",
+  "version": "1.0.0",
+  "author": "tsengfhy",
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
-  },
-  "hexo": {
-    "version": ""
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "dependencies": {
-    "hexo": "^5.0.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "@vuepress/plugin-nprogress": "^1.5.4",
+    "vue-class-component": "^7.2.5",
+    "vuepress": "1.5.0",
+    "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-theme-reco": "1.5.5"
   }
 }
