@@ -52,6 +52,8 @@ tags:
 
 - [魔改CRA](react-framework-cra-extend.html)
 - [编码助手](react-framework-code-helper.html)
+- [模块化动态加载](react-framework-dynamic-module.html)
+- [伪微前端](react-framework-pseudo-microfrontend.html)
 
 
 
